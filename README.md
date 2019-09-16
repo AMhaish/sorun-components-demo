@@ -108,7 +108,7 @@ Another common props that are optional to the component will be as following:
 - **company** : The company object with all company settings, if it&#39;s not passed the container component will automatically make a call to get that value
 - **logout** : An output callback that will be called if the logout button has been clicked.
 
-###Auto initialization mode:
+### Auto initialization mode:
 
 In auto initialization mode, the component will initialize Sorun-JS library alone, the component will need the following props as a dependency:
 
@@ -120,7 +120,7 @@ In auto initialization mode, the component will initialize Sorun-JS library alon
 **Important note:** Auto initialization with invalid token will only works if the company allows authentication without phone authentication.
 
 
-###Manual initialization mode:
+### Manual initialization mode:
 
 In manual initialization mode, the component expect that the authentication is happening outside to get a valid token in any method. Also the component will expect the Sorun-JS instance to initialized outside and passed as props to it. The component will need the following props as a dependency:
 
