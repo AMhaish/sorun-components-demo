@@ -28,21 +28,6 @@ Be aware that the project will not work without adding an agent token in the cod
 ## Very important note
 Please be aware that I am fetching a client token through front-end code for sake of testing, but the correct way to do that is in the backend, so you don't expose your agent token in a front-end project which can be getten easily to hack your SOR'UN account.
 
-# SDK Architect
-The system architect is organized in layered architecture; the first abstraction is the Sorun-JS library, which implemented in pure JavaScript and can be used in any front-end framework. The main backend calls and processes flows are implemented in this library. <br>
-Sorun-Conversation is a container component that supports the conversational window and contains the business logic, in order to use it one view implementation should be used as its layout. Sorun-Web-Conversation and Sorun-Native-Conversation are two view implementations for web and mobile platforms in order. <br>
-Sorun-JS library implements Observer Pattern where Sorun-Conversation can subscribe to authentication and messages events. So an instance of Sorun-JS library is compulsory dependency for Sorun-Conversation in order to work. But we developed Sorun-Conversation in two modes, where the second one can do initialization process including initializing the Sorun-JS instance internally. <br>
-There are some libraries that should be installed inside your application to make the system works properly as peer dependencies for these components, they are as follows:
-- Jquery: It will be removed soon, but it's a dependency for now using the version ^3.3.1 
-- React: Using versions ^15.0.0 or ^16.0.0.
-- Sorun-JS: Using any version after 1.4.0, it’s preferable to use last version always
-- React-dom: Just for web platform, using versions ^15.0.0 or ^16.0.0
-- React-Native: Just for web platform, tested on Expo 31 SDK but should work on all versions.
-- Native-Base: Just for mobile platforms, using versions ^2.8.1
-- PropTypes: Using versions ^15.5.4,
-- React-native-markdown-renderer: Using versions ^3.2.8
-- React-native-google-places-autocomplete: Using versions ^1.3.9
-
 # Documentation about the components
 
 ## System architect
