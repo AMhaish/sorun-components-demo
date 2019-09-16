@@ -4,10 +4,10 @@
 ## About this small project
 I created this small project to make it easy for developers to implement SOR'UN components in their web or mobile applications.
 Inside this project I am testing the following components from SOR'UN platform:
-[https://www.npmjs.com/package/sorun-conversation](https://www.npmjs.com/package/sorun-conversation)
-[https://www.npmjs.com/package/sorun-web-conversation](https://www.npmjs.com/package/sorun-web-conversation)
-And also the story will be the same for the Native layout component:
-[https://www.npmjs.com/package/sorun-native-conversation](https://www.npmjs.com/package/sorun-native-conversation)
+[https://www.npmjs.com/package/sorun-conversation](https://www.npmjs.com/package/sorun-conversation) <br>
+[https://www.npmjs.com/package/sorun-web-conversation](https://www.npmjs.com/package/sorun-web-conversation) <br>
+And also the story will be the same for the Native layout component: <br>
+[https://www.npmjs.com/package/sorun-native-conversation](https://www.npmjs.com/package/sorun-native-conversation) <br>
 But this project is created for only testing the web version.
 
 You can find a detailed documentation on how to use each component in its npm package page.
